@@ -7,3 +7,6 @@ export const openModal = (payload) => (dispatch) => {
 export const closeModal = () => (dispatch) => {
   dispatch({ type: actionTypes.CLOSE_MODAL, payload: false });
 };
+
+//We fetch types from ModalActionTypes file and process them in this phase.
+
